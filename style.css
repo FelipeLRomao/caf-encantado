@@ -1,0 +1,283 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif; 
+}
+
+
+body{
+  background-color: #1e1e1e; 
+  color: #fff; 
+  margin: 0;
+  scroll-behavior: smooth; 
+}
+
+.texto-destaque{
+  font-weight: 600;
+  color: #d3be00;
+}
+
+.cabecalho {
+  background-color: #554634; 
+  padding: 20px 0;
+  text-align: center;
+}
+
+.cabecalho h1{
+  font-family: 'Caprasimo', serif;
+  color: #b3a39d;
+  letter-spacing: 1px;
+  text-shadow: 2px 3px 2px #1e1e1e;
+  font-size: 30px;
+}
+
+.historia h2{
+  color: #e58b19;
+  text-shadow: 10px 2px 5px #333333;
+  padding-bottom: 10px;
+  font-family: 'Caprasimo', serif;
+}
+
+.menu{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  margin-bottom: 30px;
+}
+.logo-brilhante img{
+  margin-left: 60px;
+  width: 100px;
+}
+
+nav{
+  padding-bottom: 10px;
+  border-bottom: 3px solid #3b2525;
+}
+.menu ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-left: 30px;
+}
+
+.menu li {
+  display: flex;
+  margin-right: 20px;
+  justify-content: center;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+}
+.banner{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-top: 5px solid #3b2525;
+  border-bottom: 5px solid #3b2525;
+  width: 100%;
+}
+
+.historia p{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.conteudo {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.card {
+  background-color: #d4c9c2; 
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  width: 300px;
+  box-shadow: 1px 2px 10px #b3a39d;
+}
+.card:hover{
+  background-color: #8c7f7a;
+  box-shadow: 1px 2px 15px #e58b19;  
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.titulo-cardapio{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Caprasimo', serif;
+  color: #e58b19;
+  text-shadow: 2px 5px 6px #3a3a37;
+}
+
+figcaption {
+  padding: 15px;
+}
+
+figcaption h2 {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #3b2525; 
+}
+
+
+figcaption h2:hover{
+  color: #d3be00;
+}
+
+figcaption p {
+  color: #303030;
+}
+
+/* Tabela de preços e eventos */
+.tabela-precos {
+  margin-top: 30px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.tabela-precos h2 {
+  text-align: center;
+  font-family: 'Caprasimo', serif;
+  color: #e58b19;
+  text-shadow: 2px 5px 6px #3a3a37;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #e58d1942; 
+  padding: 10px;
+  text-align: left;
+}
+
+thead {
+  background-color: #2e2e2e; 
+  color: #fff; 
+}
+
+tbody tr:nth-child(even) {
+  background-color: #1e1e1e; 
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #2e2e2e;
+}
+
+tbody td {
+  color: #fff; 
+}
+
+/*  Formulário de contato */
+
+.formulario-registro {
+  margin-top: 30px;
+  text-align: center;
+  background-color: #554634;
+  padding-bottom: 20px;
+
+}
+
+.formulario-registro h2 {
+  padding-top: 30px;
+  font-family: 'Caprasimo', serif;
+  color: #e58b19;
+  text-shadow: 2px 5px 6px #554634;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 20px;
+  border: 2px solid #b3a39d;
+  border-radius: 20px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  color: #d4c9c2;
+  text-align: left;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #4d3c28; 
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #25a14f;
+  color: #fff; 
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+button:hover {
+  background-color: #16c241; 
+}
+
+#produtos{
+  font-size: 16px;
+  width: 100%;
+}
+
+/* footer */
+
+footer {
+  background-color: #4d3c28; 
+  color: #fff; 
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+#desenvolvedor{
+  text-decoration: none;
+  color: #b3a39d;
+  font-size: 18px;
+}
